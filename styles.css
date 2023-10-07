@@ -2,17 +2,17 @@
     --blue: #55A2CC;
     --light-blue: #88b4cd;
     --white: #ffffff; 
-  }
+}
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-body {
-  font-family: sans-serif;
 }
-  
+body {
+    font-family: sans-serif;
+}
+
 a {
     text-decoration: none;
     color: var(--white);
@@ -28,17 +28,17 @@ a {
     align-items: center;
     padding-top: 20px;
     background-color: var(--blue);
-  }
+}
 
 .logo {
-font-size: 1.8rem;
-color: var(--white);
-padding-left: 20px;
-padding-bottom: 10px;
+    font-size: 1.8rem;
+    color: var(--white);
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .logo .small-text {
-font-size: 16px;  
+    font-size: 16px;  
 }
 .logo .small-break {
     display: block;
@@ -46,56 +46,57 @@ font-size: 16px;
 }
 
 .hamburger {
-padding-right: 20px;
-cursor: pointer;
+    padding-right: 20px;
+    cursor: pointer;
 }
 
 .hamburger .line {
-display: block;
-width: 40px;
-height: 5px;
-margin-bottom: 10px;
-background-color: var(--white);
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: var(--white);
 }
 
 .nav__link {
-position: fixed;
-width: 94%;
-top: 6.5rem;
-left: 18px;
-background-color: var(--blue);
+    position: fixed;
+    width: 94%;
+    top: 6.5rem;
+    left: 18px;
+    background-color: var(--blue);
 }
 
 .nav__link a {
-display: block;
-text-align: center;
-padding: 10px 0;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .nav__link a:hover {
-background-color: var(--light-blue);
+    background-color: var(--light-blue);
 }
 
 .hide {
-display: none;
+    display: none;
 }
 
 
 @media screen and (min-width: 600px) {
-.nav__link {
-    display: block;
-    position: static;
-    width: auto;
-    margin-right: 20px;
-    background: none;
-}
 
-.nav__link a {
-    display: inline-block;
-    padding: 15px 20px;
-}
+    .nav__link {
+        display: block;
+        position: static;
+        width: auto;
+        margin-right: 20px;
+        background: none;
+    }
 
-.hamburger {
-    display: none;
-}
+    .nav__link a {
+        display: inline-block;
+        padding: 15px 20px;
+    }
+
+    .hamburger {
+        display: none;
+    }
 }
